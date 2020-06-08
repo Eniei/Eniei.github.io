@@ -1,6 +1,3 @@
-body {
-	font-family: 'Open Sans', sans-serif;
-}
 
 form {
 	max-width: 500px;
@@ -195,3 +192,53 @@ h1, h2, h3 {
 .title::after{
     margin-left: 70px;
 }
+
+.main-page{
+    content: "";
+    background-image: url(../images/couple.jpg);
+    background-position: center center;
+		background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.mega-title{
+		margin-top: 220px;
+		line-height: 5em;
+		text-align: center;
+
+}
+
+.mega-title h1{
+		font-size: 5em;
+		font-family: 'Amatic SC', cursive;
+		color:ghostwhite;
+}
+
+.mega-title p{
+		font-size: 2.25em;
+		font-family: 'Amatic SC', cursive;
+		color:ghostwhite;
+}
+
+.index-menu {
+	  text-align:center;
+		margin-top: 100px;
+}
+
+.index-menu a{
+	  text-align:center;
+    font-size: 14px;
+    background: #fff;
+    border-radius: 2px;
+    line-height: 2;
+    display: inline-block;
+    padding: 0 20px;
+    border: 2px solid #555;
+
+}
+
