@@ -263,3 +263,17 @@ h1, h2, h3 {
     box-sizing: border-box;
     padding: 0 40px;
 }
+
+.preview .preview-scroll {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
