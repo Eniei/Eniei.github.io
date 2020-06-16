@@ -244,7 +244,7 @@ h1, h2, h3 {
 
 .navbar-title-container {
     width: 100%;
-    background: #f2a3b3;
+    background-image: url(../images/jio.jpg);
     display: flex;
     flex-direction: column;
     align-items: center;
